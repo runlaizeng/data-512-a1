@@ -13,11 +13,11 @@ The legacy Pagecounts API ([documentation](https://wikitech.wikimedia.org/wiki/A
 
 The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [endpoint](https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017.
 
-## Variables of Final Data File
+## Final Data File
 
-Final data stores in ```en-wikipedia_traffic_200801-201709.csv```
+Final data saves in ```en-wikipedia_traffic_200801-201709.csv```
 
-Variables shown as follows:
+Values shown as follows:
 
 |  Column | Value  |
 |---|---|

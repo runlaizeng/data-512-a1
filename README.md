@@ -30,6 +30,17 @@ Values shown as follows:
 |  pageview_desktop_views |  nums_views |
 |  pageview_mobile_views | nums_views  |
 
+Data for pageview  come from Pageviews APT are called pageviews_desktop_201507-201709.json, pageviews_mobile-app_201507-201709.json and pageviews_mobile-web_201507-201709.json.
+pageview_all_views is all views for desktop, mobile-app, and mobile-web.
+pageview_desktop_views is views for desktop
+pageview_mobile_views is views for both mobile-app and mobile-web views.
+
+Data for pagecount come from legacy Pagecounts API are named as pagecounts_desktop-site_200801-201607.json and pagecounts_mobile-site_200801-201607.json.
+pagecount_all_views is all views for desktop and mobile views.
+pagecount_desktop_views is desktop-site views.
+pagecount_mobile_views is mobile-site views.
+
+
 ## Directory Structure
 ```
 data-512-a1 (master)
@@ -47,3 +58,7 @@ data-512-a1 (master)
 |     |      pageviews_mobile-app_201507-201709.json
 |     |      pageviews_mobile-web_201507-201709.json
 ```
+
+## Important Notes
+
+Since a new pageview definitin took effect on May 2015, data from the Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not

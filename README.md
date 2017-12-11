@@ -51,12 +51,7 @@ data-512-a1 (master)
 |     hcds-a1-data-curation.ipynb
 |     views of english wikipedia.jpg
 |	    
-|----- data
-|     |      pagecounts_desktop-site_200801-201607.json
-|     |      pagecounts_mobile-site_200801-201607.json
-|     |      pageviews_desktop_201507-201709.json
-|     |      pageviews_mobile-app_201507-201709.json
-|     |      pageviews_mobile-web_201507-201709.json
+
 ```
 
 ## Important Notes
